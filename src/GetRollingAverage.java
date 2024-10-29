@@ -22,7 +22,6 @@ public class GetRollingAverage {
             windowSum += arr.get(i) - arr.get(i - k);
             result.add(windowSum / k);
         }
-
         return result;
     }
 }
